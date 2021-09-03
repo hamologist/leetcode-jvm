@@ -1,5 +1,7 @@
 package com.hamologist.leetcode.easy.maximum_depth_of_binary_tree;
 
+import com.hamologist.leetcode.shared.TreeNode;
+
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -26,19 +28,6 @@ public class Main {
 
         TreeNode exampleFour = new TreeNode(0);
         System.out.println(solution.maxDepth(exampleFour));
-    }
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }
 
