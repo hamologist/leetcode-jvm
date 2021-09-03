@@ -1,5 +1,7 @@
 package com.hamologist.leetcode.easy.delete_node_in_a_linked_list;
 
+import com.hamologist.leetcode.shared.ListNode;
+
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
@@ -14,12 +16,6 @@ public class Main {
             exampleOne = exampleOne.next;
         }
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
 }
 
 class Solution {

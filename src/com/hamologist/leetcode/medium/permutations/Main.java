@@ -1,4 +1,4 @@
-package com.hamologist.leetcode.easy.permutations;
+package com.hamologist.leetcode.medium.permutations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
